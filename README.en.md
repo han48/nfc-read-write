@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icon.png" alt="NFC Desktop icon" width="128" />
+</p>
+
 # NFC Desktop App
 
 *Read in other languages: [Tiếng Việt](README.md) · [日本語](README.ja.md)*
