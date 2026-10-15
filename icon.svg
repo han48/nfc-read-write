@@ -1,0 +1,32 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3b8ee6"/>
+      <stop offset="0.55" stop-color="#2563c9"/>
+      <stop offset="1" stop-color="#163f8f"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softshadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0a2a5c" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Nen bo goc + lop gloss + vien sang -->
+  <rect x="16" y="16" width="224" height="224" rx="52" ry="52" fill="url(#bg)"/>
+  <rect x="16" y="16" width="224" height="224" rx="52" ry="52" fill="url(#gloss)"/>
+  <rect x="17.5" y="17.5" width="221" height="221" rx="50.5" ry="50.5"
+        fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- Song NFC: 3 cung dong tam + cham phat, mau trang, co bong -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" filter="url(#softshadow)">
+    <!-- tam phat o (96,160); cac cung huong len phai -->
+    <path d="M 96 160 m 0 -34 a 34 34 0 0 1 34 34" stroke-width="15" opacity="0.95"/>
+    <path d="M 96 160 m 0 -58 a 58 58 0 0 1 58 58" stroke-width="15" opacity="0.9"/>
+    <path d="M 96 160 m 0 -82 a 82 82 0 0 1 82 82" stroke-width="15" opacity="0.85"/>
+  </g>
+  <circle cx="96" cy="160" r="11" fill="#ffffff" filter="url(#softshadow)"/>
+</svg>

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=NFC Desktop
+Comment=NFC-PM5 (PN532) reader/writer: input device, read/write tags
+Exec=nfc_app
+Icon=nfc_app
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,5 @@
+PyQt5==5.15.11
+pyserial==3.5
+# Gõ phím cho chế độ Input (chọn theo nền tảng):
+keyboard==0.13.5 ; sys_platform == "win32"
+pynput==1.7.7 ; sys_platform != "win32"
